@@ -63,18 +63,4 @@
 .css .o,
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
-.icon-border {
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-align:center;
-    -ms-flex-align:center;
-    align-items:center;
-    -webkit-box-pack:center;
-    -ms-flex-pack:center;
-    justify-content:center;
-    width:60px;
-    height: 60px;
-    border-radius: 50%;
-    border: 2px solid red;
-}
+
