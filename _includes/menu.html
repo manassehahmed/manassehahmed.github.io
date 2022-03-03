@@ -1,10 +1,10 @@
 <div class="menu">
   <nav class="menu-content">
     {% for item in site.data.settings.menu %}
-      <a class="menu-contentt" href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
+      <a href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
     {% endfor %}
     <br>
-   <a class="header-subtitle-two"  href="https://lenpaul.github.io/Lagrange/">Made with Lagrange</a>
+    <small>  <a> href="https://lenpaul.github.io/Lagrange/">Made with Lagrange</a> </small>
   </nav>
   <nav class="social-icons">
     {% include social-icons.html %}
